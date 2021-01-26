@@ -1,0 +1,56 @@
+<!doctype html>
+
+<!-- Hello World HTML -->
+<!-- don't forget to validate at https://validator.w3.org -->
+
+<html lang="en">
+
+    <head>
+        <!-- Where CSS and Meta Information Goes -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!-- The text the user sees in browser tab -->
+        <title>Hello World 1.0</title>
+
+        <!-- this line is to include the FontAwesome icon set -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+        <!-- This is how the web page knows about YOUR CSS file! -->
+        <link rel="stylesheet" type="text/css" href="hello-world.css"/>
+
+    </head>
+    <body>
+        <!-- This is where all the VISIBLE web page content goes -->
+
+        <div id="container">
+
+            <section id="hello-world-row">
+
+                <!-- responsive column that fills half of desktop screen -->
+                <article id="hello-world-column1">
+
+                    <!-- the element accessed in our JavaScript "click" -->
+                    <p>The religous order of astrological gods</p>
+                    <img id="planet-hand" src="images/planet-hand.jpeg" alt="planet-hand">
+                </article>
+
+                <!-- responsive column that fills half of desktop screen -->
+                <article id="hello-world-column2">
+
+                    <h1>Let Go</h1>
+                    <h2>Give In</h2>
+                    <p>Please Join Us!</p>
+                    <img id="orbit" src="images/orbit.jpeg" alt="orbit">
+
+                    <!-- fontawesome icon here for no reason just to demonstrate -->
+                    <i class="far fa-smile-wink"></i>
+                </article>
+            </section>
+        </div>
+
+        <!-- This is how the web page knows about YOUR JavaScript file! -->
+        <script src="hello-world.js"></script>
+    </body>
+
+</html>
